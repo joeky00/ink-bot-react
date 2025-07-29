@@ -8,7 +8,7 @@ const InkBot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [savedConversations, setSavedConversations] = useState([]);
   const [currentConversationId, setCurrentConversationId] = useState(null);
-  const [apiUrl, setApiUrl] = useState('https://f0523cdfafec8c1cc1.gradio.live');
+  const [apiUrl, setApiUrl] = useState('https://ink-bot-backend.onrender.com');
   const [connectionStatus, setConnectionStatus] = useState('disconnected');
   const messagesEndRef = useRef(null);
 
